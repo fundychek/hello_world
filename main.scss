@@ -1,0 +1,27 @@
+.wrapper{
+	width: 80%;
+	margin: 150px auto;
+   
+    input {
+		display: none;
+		&:checked + label {
+	        background-color: #EF7F1A;
+	        color: #fff;
+        }
+    }
+
+	label{
+        cursor: pointer;
+        display: inline-block;
+        padding: 12px 40px;
+        background-color: #ccc;
+        border-right: 20px;
+        border-radius: 20px;
+        text-align: center;
+	}
+}
+.content{
+	article{
+		border-bottom: 1px solid #ccc;
+	}
+}
